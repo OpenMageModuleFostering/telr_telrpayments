@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Telr_TelrPayments</name>
+    <version>2.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Accept payments using the Telr secure hosted payment pages.</summary>
+    <description>This extension adds Telr to the supported payment methods for your Magento store.&#xD;
+&#xD;
+It interfaces with the V2 Telr payment pages (Responsive layout), allowing you to accept payments without requiring your systems to be PCI DSS certified.&#xD;
+</description>
+    <notes>Process transactions using the V2 hosted payment pages.</notes>
+    <authors><author><name>Telr</name><user>telr</user><email>support@telr.com</email></author></authors>
+    <date>2015-10-25</date>
+    <time>07:00:50</time>
+    <contents><target name="magecommunity"><dir name="Telr"><dir name="TelrPayments"><dir name="Block"><file name="Cancel.php" hash="4fec892478e9ddeaab414584db14e828"/><file name="Failure.php" hash="262441cad509df4461f39b1f17e82c55"/><file name="Form.php" hash="b4672207b1c189bc8880f0d15e26b3de"/><file name="Info.php" hash="7666ae06c895aff20c2394baafc0298e"/><file name="Redirect.php" hash="b883a441cc6868cacaef1596502c38fe"/><file name="Success.php" hash="d323b12b1e1e028f0ee710abad3ab5b4"/></dir><dir name="Helper"><file name="Data.php" hash="18adaf32cf91ca3b5b97d2d8882f4882"/></dir><dir name="Model"><file name="Cc.php" hash="38668bfa4b78a89ed3c3e9490cb0a5c7"/><dir name="Source"><file name="RequestType.php" hash="48b32af4dc93dd4c9cc1dd88708f3cd5"/></dir></dir><dir name="controllers"><file name="ProcessingController.php" hash="4bd411c57c4d44b607c04775313dc2b8"/></dir><dir name="etc"><file name="config.xml" hash="71554d0db4cba27aa1c7ed8ac4b72563"/><file name="system.xml" hash="f347e524db44a9313f2e6ddc0e3d75b5"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="telrpayments"><file name="blank.phtml" hash="4e8c8adf28f0bfbb9686bc5b396183df"/><file name="cancel.phtml" hash="840ca88b9da13f3ddc9774b02a94cf98"/><file name="failure.phtml" hash="be25968d6f2570c4e4e1afcc792376c4"/><file name="form.phtml" hash="5f120a2060b066b4e3dfc208181280e8"/><file name="info.phtml" hash="a58449b48f7b5e168e5b7a9e552fa768"/><file name="redirect.phtml" hash="7ae59868ad83b24088d5e43765158225"/></dir></dir><dir name="layout"><file name="telrpayments.xml" hash="79c0f2595492413878bd9167ee100800"/></dir></dir></dir></dir><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="template"><dir name="telrpayments"><file name="info.phtml" hash="d92e90faaa26590791200f9fe6429057"/><dir name="pdf"><file name="info.phtml" hash="4650927b466f8d6381aa32c918bb0192"/></dir></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Telr_TelrPayments.xml" hash="e198d9b659bd2b9662885e17b6442f9b"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
