@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Telr_TelrPayments",
+    "name": "openmage-module-fostering\/telr_telrpayments",
     "type": "magento-module",
-    "license": "OSL-v3.0",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Accept payments using the Telr secure hosted payment pages.",
     "authors": [
