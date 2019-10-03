@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Telr_TelrPayments",
+    "name": "OpenMageModuleFostering\/Telr_TelrPayments",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "Accept payments using the Telr secure hosted payment pages.",
     "authors": [
-    {
-        "name": "Telr",
-        "email": "support@telr.com"
-    }
-],
+        {
+            "name": "Telr",
+            "email": "support@telr.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
